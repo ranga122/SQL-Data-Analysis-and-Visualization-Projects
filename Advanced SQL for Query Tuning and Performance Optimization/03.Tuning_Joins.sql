@@ -6,6 +6,7 @@
 set enable_nestloop = true;
 set enable_hashjoin = false;
 set enable_mergejoin = false;
+set enable_standedjoin = true;
 
 EXPLAIN SELECT s.id,s.last_name,s.job_title,cr.country
 FROM staff s
