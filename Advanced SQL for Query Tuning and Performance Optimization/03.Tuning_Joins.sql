@@ -37,6 +37,7 @@ columns and the columns you are trying to matching on are indexed properly.
 set enable_nestloop = false;
 set enable_hashjoin = true;
 set enable_mergejoin = false;
+set enable_strandedjoin = true;
 
 
 EXPLAIN SELECT s.id,s.last_name,s.job_title,cr.country
